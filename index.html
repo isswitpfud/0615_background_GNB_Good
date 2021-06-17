@@ -8,10 +8,9 @@
 </head>
 
 <body>
-       <header id="header" class="flexContainer">
+    <header id="header" class="flexContainer">
         <div id="headerContents" class="flexContainer">
-            <img src="images/logo_Header_200x40.png"
-                    alt="헤더로고이미지">
+            <img src="images/logo_Header_200x40.png" alt="헤더로고이미지">
             <nav id="gnbMenu">
                 <ul class="flexContainer">
                     <li class="mainli"><a href="#">개인</a></li>
@@ -25,40 +24,51 @@
 
     <div id="wrap">
         <main id="main">
-            <slide id="slide">
+            <div id="slide">
                 <img src="images/slideImg_01.jpg" alt="슬라이드이미지">
                 <div id="text">
                     늘 곁에, 더 가까이 <br>
                     소호 컨설팅을 대한은행과 함께 합니다.<br>
                     적은 돈으로 목돈 만들기!!
                 </div>
-            </slide>
-            <contents id="contents" class="flexContainer">
+            </div>
+            <div id="contents" class="flexContainer">
                 <div id="multitab">
-                    <button class="contentsButton">공지사항</button>
-                    <button class="contentsButton">갤러리</button>
-                    <table>
-                        <tboby>
-                            <tr>
-                                <td class="tdFirst">바이오인증을 활용한 손으로 출금</td>
-                                <td>04.17</td>
-                            </tr>
-                            <tr>
-                                <td class="tdFirst">KB셀러론 KB셀러론(서울보증연계)</td>
-                                <td>04.04</td>
-                            </tr>
-                            <tr>
-                                <td class="tdFirst">2019 KB굿잡 우수기업 취업박람회 안내</td>
-                                <td>03.25</td>
-                            </tr>
-                        </tboby>
-                    </table>
+                    <button type="button" class="contentsButton">
+                        공지사항
+                    </button>
+                    <button type="button" class="contentsButton">
+                        갤러리
+                    </button>
+                    <div id="tableBtn">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="tdFirst">
+                                    바이오인증을 활용한 손으로 출금
+                                    </td>
+                                    <td>04.17</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdFirst">
+                                    『KB셀러론』 KB셀러론(서울보증연계)</td>
+                                    <td>04.04</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdFirst">
+                                    2019 KB굿잡 우수기업 취업박람회 안내</td>
+                                    <td>03.25</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> <!-- #tableBtn -->
                 </div> <!-- #multitab -->
+
                 <div id="contentsImg">
                     <img src="images/banner_01_294x294.png" alt="로봇이미지">
                     <img src="images/shortcut_01_294x294.png" alt="사람이미지">
                 </div> <!-- #contents #contentsImg -->
-            </contents> <!-- contents#contents -->
+            </div> <!-- contents#contents -->
         </main><!-- main#main -->
     </div> <!-- div#wrap -->
 
@@ -75,4 +85,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>
